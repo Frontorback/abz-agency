@@ -1,0 +1,102 @@
+// FIRST-SECTION
+$left: 60px;
+$maxWidth: 1170px;
+
+.First-section {
+  background-color: #edecea;
+  padding-top: 60px;
+
+  .Background {
+    background: url("../../img/Banner_photo.jpg");
+    max-width: $maxWidth;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+
+    h1 {
+      max-width: 670px;
+      padding: 185px 0 21px 0;
+      font-size: 40px;
+      line-height: 40px;
+      font-weight: normal;
+      margin: 0;
+    }
+    p {
+      max-width: 527px;
+      margin: 0px 0px 32px 0;
+      line-height: 26px;
+    }
+  }
+}
+.btn {
+  width: 148px;
+  height: 50px;
+  border-radius: 80px;
+  background-color: rgba(244, 224, 65, 1);
+  cursor: pointer;
+
+  .in-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 26px;
+    color: black;
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .First-section .Background {
+    max-width: 1024px;
+    padding-left: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .First-section {
+    max-width: 768px;
+    .Background {
+      padding-left: 32px;
+      background-position: 50%;
+      height: 500px;
+      h1 {
+        max-width: 410px;
+        padding-top: 81px;
+      }
+      p {
+        max-width: 420px;
+        height: 156px;
+      }
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .First-section {
+    max-width: 360px;
+    height: 469px;
+    .Background {
+      padding-left: 16px;
+      background-position: 54.7%;
+      height: 469px;
+      h1 {
+        max-width: 240px;
+        padding-top: 51px;
+        height: 160px;
+        font-size: 40px;
+        line-height: 40px;
+      }
+      p {
+        max-width: 240px;
+        height: 104px;
+        .odd-text {
+          display: none;
+        }
+      }
+    }
+  }
+}
