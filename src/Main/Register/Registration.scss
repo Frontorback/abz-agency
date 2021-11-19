@@ -45,7 +45,7 @@ $maxWidth: 1170px;
         padding: 0;
         margin-bottom: 50px;
         border-radius: 4px;
-        font-family: "Asap";
+        
         font-size: 12px;
         line-height: 17px;
         background-color: white;
@@ -53,6 +53,7 @@ $maxWidth: 1170px;
         legend {
           margin-left: 16px;
           color: #00bdd3;
+          font-family: "Asap";
         }
         input:focus-visible {
           outline: none;
@@ -68,6 +69,7 @@ $maxWidth: 1170px;
         width: 376px;
         padding-left: 16px;
         box-sizing: border-box;
+        font-family: "Asap";
       }
       .input-change {
         height: 34px;
@@ -171,14 +173,14 @@ $maxWidth: 1170px;
     display: flex;
     flex-direction: row;
 
-    margin: 50px auto;
+    margin: 40px auto 50px auto;
     cursor: pointer;
 
     .first-upload {
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 83px;
+      width: 99px;
       height: 54px;
       border: 1px solid rgba(0, 0, 0, 0.87);
       box-sizing: border-box;
@@ -189,7 +191,7 @@ $maxWidth: 1170px;
       display: flex;
       align-items: center;
       padding-left: 16px;
-      width: 297px;
+      width: 275px;
       height: 54px;
       border: 1px solid #d0cfcf;
       box-sizing: border-box;
@@ -198,7 +200,7 @@ $maxWidth: 1170px;
   }
 
   .btn-submit-s {
-    margin: 20px auto 2px auto;
+    margin: 0px auto 2px auto;
     .submit {
       display: flex;
       justify-content: center;

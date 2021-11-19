@@ -12,7 +12,6 @@ const Register = () =>{
         position_id :"",
         photo:{}, 
     })
-    console.log(info.photo)
 
     const [radio, setRadio] = useState("")
     const [nameError, setNameError] = useState("")

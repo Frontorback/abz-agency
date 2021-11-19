@@ -1,5 +1,5 @@
 body {
-  font-family: "Nunito", sans-serif;
+  
   background-color: rgba(248, 248, 248, 1);
   color: rgba(0, 0, 0, 0.87);
 }
@@ -69,7 +69,7 @@ footer {
       margin: 17px 0 17px 60px;
     }
     .nav-list {
-      margin-right: 60px;
+      margin-right: 45px;
     }
   }
 }
@@ -87,10 +87,10 @@ footer {
     }
     .burger-icon {
       display: flex;
-      width: 18px;
-      height: 12px;
-      margin-right: 19px;
-      margin-top: 24px;
+      width: 24px;
+      height: 24px;
+      margin-right: 32px;
+      margin-top: 18px;
       cursor: pointer;
     }
   }
