@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Menu.scss"
 import Logo from "../img/Logo.svg"
 
@@ -9,6 +9,13 @@ const Menu = ({burger, setBurger}) =>{
                 {name:"Partnership", href:"#register"}, {name:"Help", href:"#register"}, {name:"Level testimonial", href:"#register"},
                 {name:"Contact us", href:"#register"}, {name:"Articles", href:"#register"}, {name:"Our news", href:"#register"},
                 {name:"Testimonials", href:"#register"}, {name:"Licenses", href:"#register"}, {name:"Privacy Policy", href:"#register"}, ]
+
+    useEffect(() =>{
+        const body = document.querySelector("body")
+        body.style.overflow = burger ? "hidden" : "auto"
+
+    })
+      
 
     return (
         <div className={burger ? "menu active" : "menu"} onClick={() => setBurger(false)}>

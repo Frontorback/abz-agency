@@ -14,11 +14,11 @@ const Header = () =>{
                 <img src={Logo} alt="logo" />
                 <FaIcons.FaBars className="burger-icon" onClick={showBurger} />
             <ul className="nav-list">
-                <li><a href="f" >About me</a></li>
-                <li><a href="f" >Relationships</a></li>
-                <li><a href="f" >Requirements</a></li>
-                <li><a href="f" >Users</a></li>
-                <li><a href="f" >Sign Up</a></li>             
+                <li><a href="register" >About me</a></li>
+                <li><a href="register" >Relationships</a></li>
+                <li><a href="register" >Requirements</a></li>
+                <li><a href="register" >Users</a></li>
+                <li><a href="register" >Sign Up</a></li>             
             </ul>
             </div>
            

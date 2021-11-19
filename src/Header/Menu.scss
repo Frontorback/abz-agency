@@ -57,8 +57,9 @@
   color: rgba(0, 189, 211, 1);
   border-radius: 4px;
 }
-.menu__content ul li:nth-child(5n + 5) {
+.menu .menu__content ul li:nth-child(5n + 5) {
   margin-left: 0;
+  margin-bottom: 0;
   border-bottom: 1px solid #e0e0e0;
 }
 .menu__content ul li:nth-child(5n + 1) {
@@ -77,6 +78,15 @@
     }
     .menu__content {
       width: 75%;
+      ul li{
+        line-height: 26px;
+        margin-bottom: 22px;
+      }
+      ul li:nth-child(){
+        
+      }
     }
+    
   }
+  
 }
